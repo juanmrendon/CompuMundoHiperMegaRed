@@ -180,19 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sebastian Leal S\\.nuget\\packages\\": {}
+    "C:\\Users\\fdomi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
       "projectName": "Project.App.Dominio",
-      "projectPath": "C:\\Project\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Sebastian Leal S\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\Project.App\\Project.App.Dominio\\obj\\",
+      "projectPath": "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\fdomi\\.nuget\\packages\\",
+      "outputPath": "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sebastian Leal S\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\fdomi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
