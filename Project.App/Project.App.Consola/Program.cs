@@ -1,4 +1,6 @@
 ﻿using System;
+using Project.App.Dominio;
+
 
 namespace Project.App.Consola
 {
