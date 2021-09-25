@@ -10,3 +10,15 @@ C:\Project\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\bin\Debug
 C:\Project\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.csproj.CopyComplete
 C:\Project\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.dll
 C:\Project\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.pdb
+C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\bin\Debug\netstandard2.1\Project.App.Persistencia.deps.json
+C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\bin\Debug\netstandard2.1\Project.App.Persistencia.dll
+C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\bin\Debug\netstandard2.1\Project.App.Persistencia.pdb
+C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\bin\Debug\netstandard2.1\Project.App.Dominio.dll
+C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\bin\Debug\netstandard2.1\Project.App.Dominio.pdb
+C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.csproj.AssemblyReference.cache
+C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.AssemblyInfoInputs.cache
+C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.AssemblyInfo.cs
+C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.csproj.CopyComplete
+C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.dll
+C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.pdb

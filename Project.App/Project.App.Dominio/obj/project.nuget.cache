@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pwtg85A6fA5W9rSb9uBnTx+h9oQ7nHxcG6qVrQfbHQNCrLrAIRlbP3ubFjkuGdSiTuHpwMET9c2riCELM1jnKQ==",
+  "dgSpecHash": "+oaiQJ+ZKh2h/+M2wTu/wEkHXdwBoX9FVXhBe//JJ9xM++5pzHYPiEofbkchJKlhFJq6Ier9ReCIjvj28mSiHw==",
   "success": true,
-  "projectFilePath": "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
+  "projectFilePath": "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\fdomi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\fdomi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\mapau\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mapau\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
