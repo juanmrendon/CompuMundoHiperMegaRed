@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj": {}
+    "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj": {
+    "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
+        "projectUniqueName": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
         "projectName": "Project.App.Dominio",
-        "projectPath": "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
+        "projectPath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\mapau\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\obj\\",
+        "outputPath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mapau\\AppData\\Roaming\\NuGet\\NuGet.Config"

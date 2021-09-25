@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj": {}
+    "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj": {
+    "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
+        "projectUniqueName": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
         "projectName": "Project.App.Dominio",
-        "projectPath": "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
+        "projectPath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\mapau\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\obj\\",
+        "outputPath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mapau\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj": {
+    "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj",
         "projectName": "Project.App.Persistencia",
-        "projectPath": "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj",
+        "projectPath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\mapau\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\obj\\",
+        "outputPath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mapau\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -81,8 +81,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj": {
-                "projectPath": "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj"
+              "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj": {
+                "projectPath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj"
               }
             }
           }

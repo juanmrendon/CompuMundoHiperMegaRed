@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+oaiQJ+ZKh2h/+M2wTu/wEkHXdwBoX9FVXhBe//JJ9xM++5pzHYPiEofbkchJKlhFJq6Ier9ReCIjvj28mSiHw==",
+  "dgSpecHash": "MAuRZ49vuVWWkTQuWRPU3C2eGVXJg30MU/QPN3HiBaQ9BAdZ9LEm8fJFm0ZdnznDXdkT4sCs4ufbDYP3fQpTbA==",
   "success": true,
-  "projectFilePath": "C:\\Proyecto Compu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
+  "projectFilePath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mapau\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\mapau\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

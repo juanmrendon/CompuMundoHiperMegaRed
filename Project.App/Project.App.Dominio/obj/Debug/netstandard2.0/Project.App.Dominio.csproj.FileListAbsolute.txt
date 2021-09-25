@@ -16,3 +16,12 @@ C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Dominio\obj\Deb
 C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Dominio\obj\Debug\netstandard2.0\Project.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Dominio\obj\Debug\netstandard2.0\Project.App.Dominio.dll
 C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Dominio\obj\Debug\netstandard2.0\Project.App.Dominio.pdb
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Dominio\bin\Debug\netstandard2.0\Project.App.Dominio.deps.json
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Dominio\bin\Debug\netstandard2.0\Project.App.Dominio.dll
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Dominio\bin\Debug\netstandard2.0\Project.App.Dominio.pdb
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Dominio\obj\Debug\netstandard2.0\Project.App.Dominio.csproj.AssemblyReference.cache
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Dominio\obj\Debug\netstandard2.0\Project.App.Dominio.AssemblyInfoInputs.cache
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Dominio\obj\Debug\netstandard2.0\Project.App.Dominio.AssemblyInfo.cs
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Dominio\obj\Debug\netstandard2.0\Project.App.Dominio.csproj.CoreCompileInputs.cache
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Dominio\obj\Debug\netstandard2.0\Project.App.Dominio.dll
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Dominio\obj\Debug\netstandard2.0\Project.App.Dominio.pdb

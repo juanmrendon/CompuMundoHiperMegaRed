@@ -22,3 +22,15 @@ C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\ob
 C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.csproj.CopyComplete
 C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.dll
 C:\Proyecto Compu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.pdb
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.csproj.AssemblyReference.cache
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.AssemblyInfoInputs.cache
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.AssemblyInfo.cs
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.dll
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.pdb
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\bin\Debug\netstandard2.1\Project.App.Persistencia.deps.json
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\bin\Debug\netstandard2.1\Project.App.Persistencia.dll
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\bin\Debug\netstandard2.1\Project.App.Persistencia.pdb
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\bin\Debug\netstandard2.1\Project.App.Dominio.dll
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\bin\Debug\netstandard2.1\Project.App.Dominio.pdb
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Persistencia\obj\Debug\netstandard2.1\Project.App.Persistencia.csproj.CopyComplete
