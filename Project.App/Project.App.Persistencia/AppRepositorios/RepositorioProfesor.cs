@@ -56,7 +56,6 @@ namespace Project.App.Persistencia
         Profesor IRepositorioProfesor.GetProfesor(int idProfesor)
         {
             return _appContext.Profesores.FirstOrDefault( p => p.id == idProfesor); 
-            
         }
     }
 }
