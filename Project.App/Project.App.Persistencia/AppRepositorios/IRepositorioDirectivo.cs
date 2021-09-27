@@ -5,7 +5,7 @@ namespace Project.App.Persistencia
 {
     public interface IRepositorioDirectivo
     {
-        IEnumerable<Directivo> GetAllDirectivos(); 
+        IEnumerable <Directivo> GetAllDirectivos(); 
 
         Directivo AddDirectivo (Directivo directivo);
 

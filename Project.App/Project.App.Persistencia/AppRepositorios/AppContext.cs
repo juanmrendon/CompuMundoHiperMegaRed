@@ -18,7 +18,7 @@ namespace Project.App.Persistencia
 
         public DbSet<Persona> Personas {get; set;}
 
-        public DbSet<PersonalAseo> PersonalAseso {get; set;}
+        public DbSet<PersonalAseo> PersonalAseos {get; set;}
 
         public DbSet<Profesor> Profesores {get; set;}
 

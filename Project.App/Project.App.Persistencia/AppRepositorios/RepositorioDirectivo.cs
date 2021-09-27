@@ -15,9 +15,9 @@ namespace Project.App.Persistencia
 
         Directivo IRepositorioDirectivo.AddDirectivo(Directivo directivo)
         {
-            var profesorAdicionado = _appContext.Directivos.Add(directivo);
+            var directivoAdicionado = _appContext.Directivos.Add(directivo);
             _appContext.SaveChanges();
-            return profesorAdicionado.Entity;
+            return directivoAdicionado.Entity;
         }
 
         IEnumerable<Directivo> IRepositorioDirectivo.GetAllDirectivos()
