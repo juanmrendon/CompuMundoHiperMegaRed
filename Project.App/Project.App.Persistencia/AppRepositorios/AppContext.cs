@@ -10,7 +10,7 @@ namespace Project.App.Persistencia
     {
         public DbSet<Diagnostico> Diagnosticos {get; set;}
 
-        public DbSet<Directivos> Directivos {get; set;}
+        public DbSet<Directivo> Directivos {get; set;}
 
         public DbSet<Estudiante> Estudiantes {get; set;}
 
