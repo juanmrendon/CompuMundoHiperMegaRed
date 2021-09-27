@@ -14,7 +14,7 @@ namespace Project.App.Persistencia
 
         public DbSet<Estudiante> Estudiantes {get; set;}
 
-        public DbSet<Instalaciones> Instalaciones {get; set;}
+        public DbSet<Instalaciones> InstalacionesDb {get; set;}
 
         public DbSet<Persona> Personas {get; set;}
 

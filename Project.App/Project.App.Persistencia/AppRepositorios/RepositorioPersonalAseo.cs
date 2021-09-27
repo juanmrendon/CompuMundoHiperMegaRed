@@ -15,9 +15,9 @@ namespace Project.App.Persistencia.AppRepositorios
 
         PersonalAseo IRepositorioPersonalAseo.AddPersonalAseo(PersonalAseo personalAseo)
         {
-            var profesorAdicionado = _appContext.PersonalAseos.Add(personalAseo);
+            var personalAseoAdicionado = _appContext.PersonalAseos.Add(personalAseo);
             _appContext.SaveChanges();
-            return profesorAdicionado.Entity;
+            return personalAseoAdicionado.Entity;
         }
 
         IEnumerable<PersonalAseo> IRepositorioPersonalAseo.GetAllPersonalAseos()
