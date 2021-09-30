@@ -1,0 +1,35 @@
+@page
+@model Project.App.Frontend.Pages.ProfesorList
+@{
+    ViewData["Title"] = "Lista profesores";
+}
+
+<h1>Lista de saludos en varios idiomas</h1>
+<table class = "table">
+    <tr>
+            <td>Nombre</td>
+            <td>Apellidos</td>
+            <td>Id</td>
+            <td>Edad</td>
+            <td>Diagnostico</td>
+            <td>Vacuna</td>
+            <td>Departamento</td>
+            <td>Materia</td>
+
+    </tr>
+    
+    @foreach(var profesor in Model.Profesores)
+    {
+        <tr>
+            <td>@profesor.nombre</td>
+            <td>@profesor.apellidos</td>
+            <td>@profesor.identificacion</td>
+            <td>@profesor.edad</td>
+            <td>@profesor.diagnostico</td>
+            <td>@profesor.vacuna</td>
+            <td>@profesor.departamento</td>
+            <td>@profesor.materia</td>
+
+        </tr>
+    }
+</table>
