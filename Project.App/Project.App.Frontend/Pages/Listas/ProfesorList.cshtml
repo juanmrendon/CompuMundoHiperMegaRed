@@ -1,20 +1,19 @@
 @page
 @model Project.App.Frontend.Pages.ProfesorList
 @{
-    ViewData["Title"] = "Lista profesores";
 }
 
-<h1>Lista de saludos en varios idiomas</h1>
+<h1>Lista profesores</h1>
 <table class = "table">
     <tr>
-            <td>Nombre</td>
-            <td>Apellidos</td>
-            <td>Id</td>
-            <td>Edad</td>
-            <td>Diagnostico</td>
-            <td>Vacuna</td>
-            <td>Departamento</td>
-            <td>Materia</td>
+        <td>Nombre</td>
+        <td>Apellidos</td>
+        <td>Id</td>
+        <td>Edad</td>
+        <td>Diagnostico</td>
+        <td>Vacuna</td>
+        <td>Departamento</td>
+        <td>Materia</td>
 
     </tr>
     
@@ -26,10 +25,14 @@
             <td>@profesor.identificacion</td>
             <td>@profesor.edad</td>
             <td>@profesor.diagnostico</td>
-            <td>@profesor.vacuna</td>
+            <td>@profesor.vacuna.nombre</td>
             <td>@profesor.departamento</td>
             <td>@profesor.materia</td>
-
+            
+            <td>
+              <a class="btn btn-primary table-btn" asp-page="./ProfesorDetalle" asp-route-profesorId="@profesor.id">
+                <i class="fas fa-info-circle" aria-hidden="true"></i></a>
+            </td>
         </tr>
     }
 </table>

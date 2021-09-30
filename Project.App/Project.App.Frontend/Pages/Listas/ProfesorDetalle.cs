@@ -4,24 +4,26 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
 
 using Project.App.Persistencia;
 using Project.App.Dominio;
 
-
-namespace Project.App.Frontend.Pages
+namespace UCP.App.Frontend.Pages
 {
-    public class ProfesorList : PageModel
+    public class DetallesModel : PageModel
     {
         private static IRepositorioProfesor _repoProfesor = new RepositorioProfesor(new Persistencia.AppContext());
         
-        public IEnumerable<Profesor> Profesores{get; set;}
-        
+        public Profesor profesor{get; set;}
 
-        public void OnGet()
+        public IActionResult OnGet(int profesorId)
         {
-            Profesores = _repoProfesor.GetAllProfesores();
+            profesor =_repoProfesor.GetProfesor(profesorId);
+            if(profesor==null)
+            {
+                return RedirectToPage("./ProfesorList");
+            }else
+            return Page();        
         }
     }
 }

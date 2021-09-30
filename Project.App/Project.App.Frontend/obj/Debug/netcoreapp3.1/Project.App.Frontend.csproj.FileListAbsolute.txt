@@ -117,3 +117,4 @@ C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\bin\Deb
 C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Project.App.Frontend.Views.pdb
 C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Project.App.Frontend.csproj.CopyComplete
 C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Project.App.Frontend.genruntimeconfig.cache
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\ProfesorDetalle.cshtml.g.cs

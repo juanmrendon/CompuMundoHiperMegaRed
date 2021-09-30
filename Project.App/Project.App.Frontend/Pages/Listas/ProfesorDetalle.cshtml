@@ -1,0 +1,21 @@
+@page
+@model Project.App.Frontend.Pages.DetallesModel
+@{
+}
+
+<h1>Detalle profesor</h1>
+<table class = "table">
+ 
+    <tr>
+        <td>@Model.profesor.nombre</td>
+        <td>@Model.profesor.apellidos</td>
+        <td>@Model.profesor.identificacion</td>
+        <td>@Model.profesor.edad</td>
+        <td>@Model.profesor.diagnostico</td>
+        <td>@Model.profesor.vacuna.nombre</td>
+        <td>@Model.profesor.departamento</td>
+        <td>@Model.profesor.materia</td>
+    </tr>
+   
+</table>
+<a class="nav-link text-dark" asp-area="" asp-page ="/Listas/ProfesorList">Profesores</a>
