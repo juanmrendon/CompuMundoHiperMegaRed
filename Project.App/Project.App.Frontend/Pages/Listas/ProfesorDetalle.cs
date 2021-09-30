@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Project.App.Persistencia;
 using Project.App.Dominio;
 
-namespace UCP.App.Frontend.Pages
+namespace Project.App.Frontend.Pages
 {
     public class DetallesModel : PageModel
     {
