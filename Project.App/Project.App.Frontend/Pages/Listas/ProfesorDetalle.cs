@@ -10,7 +10,7 @@ using Project.App.Dominio;
 
 namespace Project.App.Frontend.Pages
 {
-    public class DetallesModel : PageModel
+    public class ProfesorDetalle : PageModel
     {
         private static IRepositorioProfesor _repoProfesor = new RepositorioProfesor(new Persistencia.AppContext());
         

@@ -7263,19 +7263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fdomi\\.nuget\\packages\\": {}
+    "C:\\Users\\mapau\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj",
       "projectName": "Project.App.Persistencia",
-      "projectPath": "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\fdomi\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\obj\\",
+      "projectPath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\mapau\\.nuget\\packages\\",
+      "outputPath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fdomi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\mapau\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7285,9 +7285,10 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj": {
-              "projectPath": "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj"
+            "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj": {
+              "projectPath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj"
             }
           }
         }
@@ -7300,6 +7301,7 @@
     },
     "frameworks": {
       "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -7337,7 +7339,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

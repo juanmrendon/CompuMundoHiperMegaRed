@@ -10,11 +10,6 @@
         <td>Nombre</td>
         <td>Apellidos</td>
         <td>Edad</td>
-        <td>Diagnostico</td>
-        <td>Vacuna</td>
-        <td>Departamento</td>
-        <td>Materia</td>
-
     </tr>
     
     @foreach(var profesor in Model.Profesores)
@@ -24,10 +19,6 @@
             <td>@profesor.apellidos</td>
             <td>@profesor.identificacion</td>
             <td>@profesor.edad</td>
-            <td>@profesor.diagnostico</td>
-            <td>@profesor.vacuna</td>
-            <td>@profesor.departamento</td>
-            <td>@profesor.materia</td>
             
             <td>
               <a class="btn btn-primary table-btn" asp-page="./ProfesorDetalle" asp-route-profesorId="@profesor.id">

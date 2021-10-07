@@ -167,3 +167,5 @@ C:\Project\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\net
 C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\ProfesorDetalle.cshtml.g.cs
 >>>>>>> 149860f5306c7d1209be3f2861661dccf98bfce2
 C:\Project\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\ProfesorDetalle.cshtml.g.cs
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\EstudianteDetalle.cshtml.g.cs
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\EstudianteList.cshtml.g.cs

@@ -5797,19 +5797,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fdomi\\.nuget\\packages\\": {}
+    "C:\\Users\\mapau\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Consola\\Project.App.Consola.csproj",
+      "projectUniqueName": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Consola\\Project.App.Consola.csproj",
       "projectName": "Project.App.Consola",
-      "projectPath": "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Consola\\Project.App.Consola.csproj",
-      "packagesPath": "C:\\Users\\fdomi\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Consola\\obj\\",
+      "projectPath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Consola\\Project.App.Consola.csproj",
+      "packagesPath": "C:\\Users\\mapau\\.nuget\\packages\\",
+      "outputPath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fdomi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\mapau\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5819,12 +5819,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj": {
-              "projectPath": "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj"
+            "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj": {
+              "projectPath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Dominio\\Project.App.Dominio.csproj"
             },
-            "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj": {
-              "projectPath": "C:\\Project\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj"
+            "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj": {
+              "projectPath": "C:\\ProyectoCompu\\CompuMundoHiperMegaRed\\Project.App\\Project.App.Persistencia\\Project.App.Persistencia.csproj"
             }
           }
         }
@@ -5837,6 +5838,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -5855,12 +5857,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.18, 3.1.18]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
