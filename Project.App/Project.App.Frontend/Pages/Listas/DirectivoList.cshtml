@@ -1,0 +1,29 @@
+@page
+@model Project.App.Frontend.Pages.DirectivoList
+@{
+}
+
+<h1>Lista estudiantes</h1>
+<table class = "table">
+    <tr>
+        <td>Id</td>
+        <td>Nombre</td>
+        <td>Apellidos</td>
+        <td>Edad</td>
+    </tr>
+    
+    @foreach(var directivo in Model.Directivos)
+    {
+        <tr>
+            <td>@directivo.nombre</td>
+            <td>@directivo.apellidos</td>
+            <td>@directivo.identificacion</td>
+            <td>@directivo.edad</td>
+            
+            <td>
+              <a class="btn btn-primary table-btn" asp-page="./DirectivosDetalle" asp-route-directivoId="@directivo.id">
+                <i class="fas fa-info-circle" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+    }
+</table>

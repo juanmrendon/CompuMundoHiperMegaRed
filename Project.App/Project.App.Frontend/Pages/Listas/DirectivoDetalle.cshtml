@@ -1,0 +1,21 @@
+@page
+@model Project.App.Frontend.Pages.DirectivoDetalle
+@{
+}
+
+<h1>Detalle directivos</h1>
+<table class = "table">
+ 
+    <tr>
+        <td>@Model.directivo.nombre</td>
+        <td>@Model.directivo.apellidos</td>
+        <td>@Model.directivo.identificacion</td>
+        <td>@Model.directivo.edad</td>
+        <td>@Model.directivo.diagnostico</td>
+        <td>@Model.directivo.vacuna</td>
+        <td>@Model.directivo.unidad</td>
+     
+    </tr>
+   
+</table>
+<a class="nav-link text-dark" asp-area="" asp-page ="/Listas/DirectivoList">Directivos</a>
