@@ -1,0 +1,22 @@
+@page
+@model Project.App.Frontend.Pages.SalonList
+@{
+}
+
+<h1>Lista salones</h1>
+<table class = "table">
+    <tr>
+        <td>Id</td>
+        <td>Aforo</td>
+        <td>Hora</td>
+    </tr>
+    
+    @foreach(var salon in Model.Salones)
+    {
+        <tr>
+            <td>@salon.id</td>
+            <td>@salon.aforo</td>
+            <td>@salon.hora</td>
+        </tr>
+    }
+</table>
