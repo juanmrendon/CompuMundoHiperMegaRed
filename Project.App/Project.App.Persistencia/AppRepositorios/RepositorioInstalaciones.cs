@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Project.App.Dominio;
 using System.Linq;
 
-namespace Project.App.Persistencia.AppRepositorios
+namespace Project.App.Persistencia
 {
     public class RepositorioInstalaciones : IRepositorioInstalaciones
     {

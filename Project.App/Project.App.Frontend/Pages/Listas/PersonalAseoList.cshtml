@@ -1,0 +1,29 @@
+@page
+@model Project.App.Frontend.Pages.PersonalAseoList
+@{
+}
+
+<h1>Lista personal aseo</h1>
+<table class = "table">
+    <tr>
+        <td>Id</td>
+        <td>Nombre</td>
+        <td>Apellidos</td>
+        <td>Edad</td>
+    </tr>
+    
+    @foreach(var personalAseo in Model.PersonalAseos)
+    {
+        <tr>
+            <td>@personalAseo.nombre</td>
+            <td>@personalAseo.apellidos</td>
+            <td>@personalAseo.identificacion</td>
+            <td>@personalAseo.edad</td>
+            
+            <td>
+              <a class="btn btn-primary table-btn" asp-page="./DirectivosDetalle" asp-route-personalAseoId="@personalAseo.id">
+                <i class="fas fa-info-circle" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+    }
+</table>
