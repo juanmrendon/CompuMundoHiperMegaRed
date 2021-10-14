@@ -1,0 +1,31 @@
+﻿@page
+@model Project.App.Frontend.pages.DirectivoEditModel
+@{
+}
+
+<h1>Editar directivo</h1>
+<form method="post">
+    <input type="hidden" asp-for="directivo.id">
+    <div class="form-group">
+        <label asp-for="directivo.nombre"></label>
+        <input asp-for="directivo.nombre" class="form-control">
+        <span class="text_danger" asp-validation-for="directivo.nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="directivo.apellidos"></label>
+        <input asp-for="directivo.apellidos" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="directivo.identificacion"></label>
+        <input asp-for="directivo.identificacion" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="directivo.edad"></label>
+        <input asp-for="directivo.edad" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="directivo.unidad"></label>
+        <input asp-for="directivo.unidad" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>

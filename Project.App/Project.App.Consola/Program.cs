@@ -7,10 +7,11 @@ namespace Project.App.Consola
     class Program
     {
         private static IRepositorioProfesor _repoProfesor = new RepositorioProfesor(new Persistencia.AppContext());
+        private static IRepositorioEstudiante _repoEstudiante = new RepositorioEstudiante(new Persistencia.AppContext());
         static void Main(string[] args)
         {
-            
-            AddProfesor();  
+            AddEstudiante();
+            //AddProfesor();  
             //BuscarProfesor(1);
             //BuscarProfesor(2); 
             //EliminarProfesor(4); 
@@ -38,6 +39,26 @@ namespace Project.App.Consola
             Profesor profesor_retornado = _repoProfesor.AddProfesor(profesor); 
             if (profesor_retornado!=null)
                 Console.WriteLine("Se registró un profesor en la base de datos");
+        }
+
+        private static void AddEstudiante()
+        {
+            var estudiante = new Estudiante
+            {  
+               nombre = "Carlos",
+               apellidos = "Perez",
+               identificacion = "104577867",
+               edad = 23,
+               diagnostico = null,
+               vacuna = null,
+               carrera = "Ingenieria",
+               semestre = "Quinto"
+            };
+
+            Console.WriteLine("Nombre: " + estudiante.nombre + "\n Apellido = " + estudiante.apellidos);
+            Estudiante estudiante_retornado = _repoEstudiante.AddEstudiante(estudiante); 
+            if (estudiante_retornado!=null)
+                Console.WriteLine("Se registró un estudiante en la base de datos");
         }
 
     }

@@ -176,3 +176,4 @@ C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Deb
 C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\SalonList.cshtml.g.cs
 C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\ProfesorEdit.cshtml.g.cs
 C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\EstudianteEdit.cshtml.g.cs
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\DirectivoEdit.cshtml.g.cs
