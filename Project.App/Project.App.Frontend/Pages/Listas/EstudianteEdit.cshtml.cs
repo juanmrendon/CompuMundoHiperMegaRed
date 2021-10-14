@@ -10,25 +10,25 @@ using Project.App.Dominio;
 
 namespace Project.App.Frontend.pages
 {
-    public class ProfesorEditModel : PageModel
+    public class EstudianteEditModel : PageModel
     {
-        private static IRepositorioProfesor _repoProfesor = new RepositorioProfesor(new Persistencia.AppContext());
+        private static IRepositorioEstudiante _repoEstudiante = new RepositorioEstudiante(new Persistencia.AppContext());
         [BindProperty]
-        public Profesor profesor{get;set;}
+        public Estudiante estudiante{get;set;}
 
-        public IActionResult OnGet(int? profesorId)
+        public IActionResult OnGet(int? estudianteId)
         {
-            if(profesorId.HasValue)
+            if(estudianteId.HasValue)
             {
-                profesor = _repoProfesor.GetProfesor(profesorId.Value);
+                estudiante = _repoEstudiante.GetEstudiante(estudianteId.Value);
             }else
             {
-                profesor = new Profesor();
+                estudiante = new Estudiante();
             }
             
-            if(profesor==null)
+            if(estudiante==null)
             {
-                return RedirectToPage("/Listas/ProfesorList");
+                return RedirectToPage("/Listas/EstudianteList");
             }else
             return Page(); 
         }
@@ -40,13 +40,13 @@ namespace Project.App.Frontend.pages
             
                 return Page();                
             }else{
-                if(profesor.id>0)
+                if(estudiante.id>0)
                 {
-                    profesor = _repoProfesor.UpdateProfesor(profesor);
+                    estudiante = _repoEstudiante.UpdateEstudiante(estudiante);
                 }else{
-                    _repoProfesor.AddProfesor(profesor);
+                    _repoEstudiante.AddEstudiante(estudiante);
                 }     
-                return RedirectToPage("/Listas/ProfesorList");
+                return RedirectToPage("/Listas/EstudianteList");
             }     
         }
     }
