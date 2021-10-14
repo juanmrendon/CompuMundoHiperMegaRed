@@ -19,6 +19,7 @@ namespace Project.App.Frontend.Pages
         public IActionResult OnGet(int profesorId)
         {
             profesor =_repoProfesor.GetProfesor(profesorId);
+            
             if(profesor==null)
             {
                 return RedirectToPage("./ProfesorList");
