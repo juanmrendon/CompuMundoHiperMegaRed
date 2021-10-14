@@ -46,7 +46,7 @@ namespace Project.App.Frontend.pages
                 }else{
                     _repoDirectivo.AddDirectivo(directivo);
                 }     
-                return RedirectToPage("/Listas/EstudianteList");
+                return RedirectToPage("/Listas/DirectivoList");
             }     
         }
     }

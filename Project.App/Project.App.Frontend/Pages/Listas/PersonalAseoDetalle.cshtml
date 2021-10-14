@@ -1,0 +1,29 @@
+@page
+@model Project.App.Frontend.Pages.PersonalAseoDetalle
+@{
+}
+
+<h1>Detalle personal aseo</h1>
+<table class = "table">
+    <tr>
+        <td>Nombre</td>
+        <td>Apellidos</td>
+        <td>Identificacion</td>
+        <td>Edad</td>
+        <td>Diagnostico</td>
+        <td>Vacuna</td>
+        <td>Turno</td>
+    </tr>
+    <tr>
+        <td>@Model.personalAseo.nombre</td>
+        <td>@Model.personalAseo.apellidos</td>
+        <td>@Model.personalAseo.identificacion</td>
+        <td>@Model.personalAseo.edad</td>
+        <td>@Model.personalAseo.diagnostico</td>
+        <td>@Model.personalAseo.vacuna</td>
+        <td>@Model.personalAseo.turno</td>
+        
+    </tr>
+   
+</table>
+<a class="nav-link text-dark" asp-area="" asp-page ="./PersonalAseoList">Personal aseo</a>

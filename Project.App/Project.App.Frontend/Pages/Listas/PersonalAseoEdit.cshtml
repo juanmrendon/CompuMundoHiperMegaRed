@@ -1,0 +1,31 @@
+﻿@page
+@model Project.App.Frontend.pages.PersonalAseoEditModel
+@{
+}
+
+<h1>Editar personal aseo</h1>
+<form method="post">
+    <input type="hidden" asp-for="personalAseo.id">
+    <div class="form-group">
+        <label asp-for="personalAseo.nombre"></label>
+        <input asp-for="personalAseo.nombre" class="form-control">
+        <span class="text_danger" asp-validation-for="personalAseo.nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="personalAseo.apellidos"></label>
+        <input asp-for="personalAseo.apellidos" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personalAseo.identificacion"></label>
+        <input asp-for="personalAseo.identificacion" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personalAseo.edad"></label>
+        <input asp-for="personalAseo.edad" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="personalAseo.turno"></label>
+        <input asp-for="personalAseo.turno" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>
