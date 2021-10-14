@@ -1,0 +1,19 @@
+﻿@page
+@model Project.App.Frontend.pages.SalonEditModel
+@{
+}
+
+<h1>Editar salon</h1>
+<form method="post">
+    <input type="hidden" asp-for="salon.id">
+    <div class="form-group">
+        <label asp-for="salon.aforo"></label>
+        <input asp-for="salon.aforo" class="form-control">
+        <span class="text_danger" asp-validation-for="salon.aforo"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="salon.hora"></label>
+        <input asp-for="salon.hora" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>
