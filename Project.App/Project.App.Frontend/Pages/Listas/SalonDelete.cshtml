@@ -1,0 +1,16 @@
+﻿@page
+@model Project.App.Frontend.Pages.SalonDeleteModel
+@{
+}
+
+<h1>El registro que se va a eliminar es: </h1>
+
+<h1> @Model.salon.aforo</h1>
+<h1> @Model.salon.hora</h1>
+<form method="post">
+    <input type="hidden" asp-for="salon.id">
+    <input type="hidden" asp-for="salon.aforo">
+    <input type="hidden" asp-for="salon.hora">
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+</form>
+<a class="nav-link text-dark" asp-area="" asp-page="./SalonList">Lista salones</a>

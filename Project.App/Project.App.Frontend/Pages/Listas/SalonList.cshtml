@@ -17,6 +17,17 @@
             <td>@salon.id</td>
             <td>@salon.aforo</td>
             <td>@salon.hora</td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./SalonEdit" asp-route-salonId="@salon.id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"></i></a>
+            </td>
+
+            <td>
+                <a class="btn btn-danger" asp-page="./SalonDelete" asp-route-salonId="@salon.id">
+                    <i class="fas fa-skull-crossbones" aria-hidden="true"></i></a>
+            </td>
         </tr>
+        
     }
 </table>
