@@ -4,17 +4,17 @@
 }
 
 <h1>Lista profesores</h1>
+<a asp-page=".\ProfesorEdit" class="btn btn-primary">Adicionar profesor</a>
 <table class="table">
     <tr>
-        <td>Id</td>
         <td>Nombre</td>
         <td>Apellidos</td>
+        <td>Identificacion</td>
         <td>Edad</td>
     </tr>
 
     @foreach (var profesor in Model.Profesores)
     {
-        <a asp-page=".\ProfesorEdit" class="btn btn-primary">Adicionar profesor</a>
         <tr>
             <td>@profesor.nombre</td>
             <td>@profesor.apellidos</td>

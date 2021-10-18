@@ -4,6 +4,7 @@
 }
 
 <h1>Lista salones</h1>
+<a asp-page=".\SalonEdit" class="btn btn-primary">Adicionar salon</a>
 <table class = "table">
     <tr>
         <td>Id</td>
@@ -13,7 +14,6 @@
     
     @foreach(var salon in Model.Salones)
     {
-        <a asp-page=".\SalonEdit" class="btn btn-primary">Adicionar salon</a>
         <tr>
             <td>@salon.id</td>
             <td>@salon.aforo</td>

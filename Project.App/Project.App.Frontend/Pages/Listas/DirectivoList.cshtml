@@ -4,6 +4,7 @@
 }
 
 <h1>Lista estudiantes</h1>
+<a asp-page=".\DirectivoEdit" class="btn btn-primary">Adicionar directivo</a>
 <table class="table">
     <tr>
         <td>Id</td>
@@ -14,7 +15,7 @@
 
     @foreach (var directivo in Model.Directivos)
     {
-        <a asp-page=".\DirectivoEdit" class="btn btn-primary">Adicionar directivo</a>
+        
         <tr>
             <td>@directivo.nombre</td>
             <td>@directivo.apellidos</td>

@@ -25,7 +25,7 @@ namespace Project.App.Frontend.Pages
         public IActionResult OnPost()
         {
             _repoSalon.DeleteSalon(salon.id);
-            return RedirectToPage("./SaloneList");
+            return RedirectToPage("./SalonList");
         }
     }
 }
