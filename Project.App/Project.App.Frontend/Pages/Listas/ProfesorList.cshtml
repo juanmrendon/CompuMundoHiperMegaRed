@@ -4,33 +4,33 @@
 }
 
 <h1>Lista profesores</h1>
-<table class = "table">
+<table class="table">
     <tr>
         <td>Id</td>
         <td>Nombre</td>
         <td>Apellidos</td>
         <td>Edad</td>
     </tr>
-    
-    @foreach(var profesor in Model.Profesores)
+
+    @foreach (var profesor in Model.Profesores)
     {
         <tr>
             <td>@profesor.nombre</td>
             <td>@profesor.apellidos</td>
             <td>@profesor.identificacion</td>
             <td>@profesor.edad</td>
-            
+
             <td>
-              <a class="btn btn-primary table-btn" asp-page="./ProfesorDetalle" asp-route-profesorId="@profesor.id">
-                <i class="fas fa-info-circle" aria-hidden="true"></i></a>
+                <a class="btn btn-primary table-btn" asp-page="./ProfesorDetalle" asp-route-profesorId="@profesor.id">
+                    <i class="fas fa-info-circle" aria-hidden="true"></i></a>
             </td>
             <td>
-              <a class="btn btn-primary table-btn" asp-page="./ProfesorEdit" asp-route-profesorId="@profesor.id">
-                <i class="fas fa-address-book fa-lg" aria-hidden="true"></i></a>
+                <a class="btn btn-primary table-btn" asp-page="./ProfesorEdit" asp-route-profesorId="@profesor.id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"></i></a>
             </td>
-             <td>
-              <a class="btn btn-primary table-btn" asp-page="./ProfesorDelete" asp-route-profesorId="@profesor.id">
-                <i class="fas fa-skull-crossbones" aria-hidden="true"></i></a>
+            <td>
+                <a class="btn btn-danger" asp-page="./ProfesorDelete" asp-route-profesorId="@profesor.id">
+                    <i class="fas fa-skull-crossbones" aria-hidden="true"></i></a>
             </td>
         </tr>
     }

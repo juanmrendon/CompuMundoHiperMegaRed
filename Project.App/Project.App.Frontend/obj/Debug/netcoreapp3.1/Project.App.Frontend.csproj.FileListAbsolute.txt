@@ -181,3 +181,5 @@ C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Deb
 C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\PersonalAseoEdit.cshtml.g.cs
 C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\SalonEdit.cshtml.g.cs
 C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\ProfesorDelete.cshtml.g.cs
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\EstudianteDelete.cshtml.g.cs
+C:\ProyectoCompu\CompuMundoHiperMegaRed\Project.App\Project.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\DirectivoDelete.cshtml.g.cs

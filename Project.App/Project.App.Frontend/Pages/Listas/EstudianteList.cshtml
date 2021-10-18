@@ -28,6 +28,10 @@
               <a class="btn btn-primary table-btn" asp-page="./EstudianteEdit" asp-route-estudianteId="@estudiante.id">
                 <i class="fas fa-address-book fa-lg" aria-hidden="true"></i></a>
             </td>
+            <td>
+                <a class="btn btn-danger" asp-page="./EstudianteDelete" asp-route-estudianteId="@estudiante.id">
+                    <i class="fas fa-skull-crossbones" aria-hidden="true"></i></a>
+            </td>
         </tr>
     }
 </table>
