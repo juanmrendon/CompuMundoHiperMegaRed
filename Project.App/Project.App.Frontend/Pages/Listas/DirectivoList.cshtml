@@ -4,31 +4,31 @@
 }
 
 <h1>Lista estudiantes</h1>
-<table class = "table">
+<table class="table">
     <tr>
         <td>Id</td>
         <td>Nombre</td>
         <td>Apellidos</td>
         <td>Edad</td>
     </tr>
-    
-    @foreach(var directivo in Model.Directivos)
+
+    @foreach (var directivo in Model.Directivos)
     {
         <tr>
             <td>@directivo.nombre</td>
             <td>@directivo.apellidos</td>
             <td>@directivo.identificacion</td>
             <td>@directivo.edad</td>
-            
+
             <td>
-              <a class="btn btn-primary table-btn" asp-page="./DirectivoDetalle" asp-route-directivoId="@directivo.id">
-                <i class="fas fa-info-circle" aria-hidden="true"></i></a>
+                <a class="btn btn-primary table-btn" asp-page="./DirectivoDetalle" asp-route-directivoId="@directivo.id">
+                    <i class="fas fa-info-circle" aria-hidden="true"></i></a>
             </td>
             <td>
-              <a class="btn btn-primary table-btn" asp-page="./DirectivoEdit" asp-route-directivoId="@directivo.id">
-                <i class="fas fa-address-book fa-lg" aria-hidden="true"></i></a>
+                <a class="btn btn-primary table-btn" asp-page="./DirectivoEdit" asp-route-directivoId="@directivo.id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"></i></a>
             </td>
-             <td>
+            <td>
                 <a class="btn btn-danger" asp-page="./DirectivoDelete" asp-route-directivoId="@directivo.id">
                     <i class="fas fa-skull-crossbones" aria-hidden="true"></i></a>
             </td>

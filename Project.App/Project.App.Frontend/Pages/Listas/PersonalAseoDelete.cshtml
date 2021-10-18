@@ -1,0 +1,19 @@
+﻿@page
+@model Project.App.Frontend.Pages.PersonalAseoDeleteModel
+@{
+}
+
+<h1>El registro que se va a eliminar es: </h1>
+
+<h1> @Model.personalAseo.nombre</h1>
+<h1> @Model.personalAseo.apellidos</h1>
+<h1> @Model.personalAseo.id</h1>
+<form method="post">
+    <input type="hidden" asp-for="personalAseo.id">
+    <input type="hidden" asp-for="personalAseo.nombre">
+    <input type="hidden" asp-for="personalAseo.apellidos">
+    <input type="hidden" asp-for="personalAseo.identificacion">
+    <input type="hidden" asp-for="personalAseo.edad">
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+</form>
+<a class="nav-link text-dark" asp-area="" asp-page="./PersonalAseoList">Lista personal aseo</a>

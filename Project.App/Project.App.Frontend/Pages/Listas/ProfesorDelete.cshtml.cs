@@ -25,7 +25,7 @@ namespace Project.App.Frontend.Pages
         public IActionResult OnPost()
         {
             _repoProfesor.DeleteProfesor(profesor.id);
-            return RedirectToPage("./ProfesoresList");
+            return RedirectToPage("./ProfesoreList");
         }
     }
 }
