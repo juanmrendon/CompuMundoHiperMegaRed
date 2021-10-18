@@ -14,6 +14,7 @@
 
     @foreach (var personalAseo in Model.PersonalAseos)
     {
+        <a asp-page=".\PersonalAseoEdit" class="btn btn-primary">Adicionar personal aseo</a>
         <tr>
             <td>@personalAseo.nombre</td>
             <td>@personalAseo.apellidos</td>

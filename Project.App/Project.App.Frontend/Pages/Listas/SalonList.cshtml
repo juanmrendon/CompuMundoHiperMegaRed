@@ -13,6 +13,7 @@
     
     @foreach(var salon in Model.Salones)
     {
+        <a asp-page=".\SalonEdit" class="btn btn-primary">Adicionar salon</a>
         <tr>
             <td>@salon.id</td>
             <td>@salon.aforo</td>
